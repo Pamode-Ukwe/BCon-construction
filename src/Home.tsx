@@ -1,4 +1,6 @@
 import { motion } from "framer-motion"
+import homeOne from "../src/assets/home-img-1.png"
+import homeTwo from "../src/assets/home-img-2.png"
 
 const Home = () => {
   return (
@@ -27,8 +29,8 @@ const Home = () => {
                 <motion.div initial={{x: '100vw', opacity: 0}} animate={{x: 0, opacity: 1}} exit={{x: '-100vw', opacity: 0}} transition={{type: 'spring', duration: 0.6}}
                     className="col-span-2">
                     <div className="relative flex">
-                        <img src="../src/assets/home-img-1.png" alt="Image1" className="px-24 lg:ml-32 lg:mt-4"/>
-                        <img src="../src/assets/home-img-2.png" alt="Image2" className="absolute mt-[30%] h-[60%] ml-12 border-10 border-zinc-900"/>
+                        <img src={homeOne} alt="Image1" className="px-24 lg:ml-32 lg:mt-4"/>
+                        <img src={homeTwo} alt="Image2" className="absolute mt-[30%] h-[60%] ml-12 border-10 border-zinc-900"/>
                     </div>
                 </motion.div>
             </div>
