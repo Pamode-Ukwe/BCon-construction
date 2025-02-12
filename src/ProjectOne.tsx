@@ -2,6 +2,7 @@ import { useEffect } from "react"
 import { BsInstagram, BsWhatsapp } from "react-icons/bs"
 import { FaFacebookMessenger } from "react-icons/fa"
 import { Link } from "react-router-dom"
+import projectPreviewOne from "../src/assets/projects-img-1.png"
 
 const ProjectOne = () => {
     useEffect(() => {
@@ -11,7 +12,7 @@ const ProjectOne = () => {
     <section className="bg-zinc-900 text-gray-300 px-32 py-24">
         <Link to='/'><button className="px-6 text-lg font-semibold"><a href="#home">← Home</a></button></Link>
         <div className="grid lg:grid-cols-2">
-            <img src="../src/assets/projects-img-1.png" alt="PROJECT1" className="w-full p-6"/>
+            <img src={projectPreviewOne} alt="PROJECT1" className="w-full p-6"/>
             <div className='p-6'>
                 <p className="text-sm text-gray-600 mt-4">House construction</p>
                 <p className="text-2xl font-bold my-2">Two Story House</p>
@@ -21,7 +22,7 @@ const ProjectOne = () => {
                 <p className="text-sm mb-8">Even more description of the project and all the processes involved</p>
             </div>
         </div>
-        <Link to='/project-two'><button className="px-6 text-lg ml-[75%] my-8 text-orange-400"><a href="">Next Project →</a></button></Link>
+        <Link to='/project-two'><button className="px-6 text-lg ml-[82%] my-8 text-orange-400"><a href="">Next Project →</a></button></Link>
         <div className="bg-zinc-900 text-white py-16">
                 <div className="grid md:grid-cols-12 grid-cols-3">
                     <div className="md:col-span-6 col-span-2">

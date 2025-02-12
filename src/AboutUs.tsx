@@ -1,10 +1,12 @@
+import aboutOne from "../src/assets/about-img-1.png"
+import aboutTwo from "../src/assets/about-img-2.png"
 
 const AboutUs = () => {
   return (
     <section id="aboutUs" className="grid lg:grid-cols-2 px-32 md:py-16 md:gap-12">
          <div className="lg:relative order-2 lg:order-1 p-2">
-                <img src="../src/assets/about-img-1.png" alt="About image1" className="lg:absolute lg:border-10 lg:border-white mx-auto lg:h-[65%] lg:right-0"/>
-                <img src="../src/assets/about-img-2.png" alt="About image2" className="lg:mt-[30%] lg:h-[60%] lg:ml-12 hidden lg:grid"/>
+                <img src={aboutOne} alt="About image1" className="lg:absolute lg:border-10 lg:border-white mx-auto lg:h-[65%] lg:right-0"/>
+                <img src={aboutTwo} alt="About image2" className="lg:mt-[30%] lg:h-[60%] lg:ml-12 hidden lg:grid"/>
         </div>
         <div className="my-auto order-1 lg:order-2">
             <div className="flex w-full justify-center lg:justify-normal py-4">

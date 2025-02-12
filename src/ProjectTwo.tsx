@@ -2,6 +2,7 @@ import { useEffect } from "react"
 import { BsInstagram, BsWhatsapp } from "react-icons/bs"
 import { FaFacebookMessenger } from "react-icons/fa"
 import { Link } from "react-router-dom"
+import projectPreviewTwo from "../src/assets/projects-img-2.png"
 
 const ProjectTwo = () => {
     useEffect(() => {
@@ -11,7 +12,7 @@ const ProjectTwo = () => {
     <section className="bg-zinc-900 text-gray-300 px-32 py-24">
         <Link to='/'><button className="px-6 text-lg font-semibold"><a href="#home">← Home</a></button></Link>
         <div className="grid lg:grid-cols-2">
-            <img src="../src/assets/projects-img-2.png" alt="PROJECT2" className="w-full p-6"/>
+            <img src={projectPreviewTwo} alt="PROJECT2" className="w-full p-6"/>
             <div className='p-6'>
                 <p className="text-sm text-gray-600 mt-4">Maintenance & Repairs</p>
                 <p className="text-2xl font-bold my-2">Stairs & Columns</p>

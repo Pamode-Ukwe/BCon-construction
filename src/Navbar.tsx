@@ -1,4 +1,5 @@
 import { useState } from "react"
+import logo from "../src/assets/favicon.png"
 
 const Navbar = () => {
     const [menu, setMenu] = useState(false)
@@ -6,7 +7,7 @@ const Navbar = () => {
     <nav className="sticky top-0 w-full z-50">
         <div className="relative flex justify-between bg-zinc-900 text-white py-8 px-16 ">
             <div className="flex lg:gap-2 gap-0.5 items-center">
-                <img src="../src/assets/favicon.png" alt="LOGO" />
+                <img src={logo} alt="LOGO" />
                 <p className="font-semibold mr-1 text-orange-500">BCon</p>
             </div>
             <div>

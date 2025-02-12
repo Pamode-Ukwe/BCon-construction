@@ -1,6 +1,7 @@
 import { BiLocationPlus, BiMessage } from "react-icons/bi"
 import { BsInstagram, BsTelephone, BsWhatsapp } from "react-icons/bs"
 import { FaFacebookMessenger } from "react-icons/fa"
+import contactPic from "../src/assets/contact-img.png"
 
 const ContactUs = () => {
   return (
@@ -8,7 +9,7 @@ const ContactUs = () => {
         <h1 className="font-bold text-yellow-400 lg:text-left text-center w-fit">CONTACT US</h1>
         <div className="font-bold text-4xl py-4 col-span-5">Write To Us & Build</div>
         <div className="grid lg:grid-cols-2 gap-16 py-4">
-            <img src="../src/assets/contact-img.png" alt="" />
+            <img src={contactPic} alt="" />
             <div className="grid lg:grid-cols-2 text-center gap-6">
                 <div className="grid border border-gray-200 shadow-lg hover:border-orange-300 hover:cursor-pointer hover:shadow-lg">
                     <BiLocationPlus className="text-3xl mx-auto grid mt-6"/>

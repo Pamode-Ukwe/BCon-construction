@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom"
+import projectOne from "../src/assets/projects-img-1.png"
+import projectTwo from "../src/assets/projects-img-2.png"
+import projectThree from "../src/assets/projects-img-3.png"
 
 const Projects = () => {
   return (
@@ -8,7 +11,7 @@ const Projects = () => {
         <div className="font-bold text-4xl pb-4 text-white text-center mb-6">Projects</div>
         <div className="grid lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-sm">
-                <Link to='/project-one'><img src="../src/assets/projects-img-1.png" alt="PROJECT1" className="w-full hover:cursor-pointer"/></Link>
+                <Link to='/project-one'><img src={projectOne} alt="PROJECT1" className="w-full hover:cursor-pointer"/></Link>
                 <div className='p-6'>
                     <p className="text-sm text-gray-600 mt-4">House construction</p>
                     <p className="text-2xl font-bold my-2">Two Story House</p>
@@ -17,7 +20,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className="bg-white rounded-sm">
-                <Link to='/project-two'><img src="../src/assets/projects-img-2.png" alt="PROJECT1" className="w-full"/></Link>
+                <Link to='/project-two'><img src={projectTwo} alt="PROJECT1" className="w-full"/></Link>
                 <div className='p-6'>
                     <p className="text-sm text-gray-600 mt-4">Maintenance & Repairs</p>
                     <p className="text-2xl font-bold my-2">Stairs & Columns</p>
@@ -26,7 +29,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className="bg-white rounded-sm">
-                <Link to='/project-three'><img src="../src/assets/projects-img-3.png" alt="PROJECT1" className="w-full"/></Link>
+                <Link to='/project-three'><img src={projectThree} alt="PROJECT1" className="w-full"/></Link>
                 <div className='p-6'>
                     <p className="text-sm text-gray-600 mt-4">Construction Of Home Areas</p>
                     <p className="text-2xl font-bold my-2">Kitchen Room</p>
