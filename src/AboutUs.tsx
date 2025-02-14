@@ -23,7 +23,7 @@ const AboutUs = () => {
                 <p><span className="font-bold text-orange-500">↦ </span>We quote your project</p>
             </div>
             <div className="flex w-full justify-center lg:justify-normal">
-                <button className="hover:shadow-xs flex justify-center md:justify-normal font-semibold hover:shadow-orange-500 hover:bg-orange-500 hover:cursor-pointer bg-orange-500 py-2 text-white rounded-xs px-6">View Projects</button>
+                <button className="hover:shadow-xs flex justify-center md:justify-normal font-semibold hover:shadow-orange-500 hover:bg-orange-500 hover:cursor-pointer bg-orange-500 py-2 text-white rounded-xs px-6"><a href="#projects">View Projects</a></button>
             </div>
         </div>
     </section>

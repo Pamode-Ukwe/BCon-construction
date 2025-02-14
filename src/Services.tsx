@@ -22,7 +22,7 @@ const Services = () => {
             <div className="font-bold text-4xl py-4 col-span-5">High Quality Construction Services</div>
             <div className="text-gray-600 col-span-4 text-sm">We provide multiple services for you, offering confidence and security in construction</div>
             <div className="w-full col-span-3 flex justify-end">
-                <button className="hover:shadow-xs font-semibold hover:shadow-orange-500 hover:bg-orange-500 hover:cursor-pointer bg-orange-500 py-2 text-white rounded-xs px-6">Contact Now</button>
+                <button className="hover:shadow-xs font-semibold hover:shadow-orange-500 hover:bg-orange-500 hover:cursor-pointer bg-orange-500 py-2 text-white rounded-xs px-6"><a href="#contact-us">Contact Now</a></button>
             </div>
         </div>
         <div className="grid lg:grid-cols-3 py-12 gap-12">
