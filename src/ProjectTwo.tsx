@@ -3,6 +3,7 @@ import { BsInstagram, BsWhatsapp } from "react-icons/bs"
 import { FaFacebookMessenger } from "react-icons/fa"
 import { Link } from "react-router-dom"
 import projectPreviewTwo from "../src/assets/projects-img-2.png"
+import logo from "../src/assets/favicon.png"
 
 const ProjectTwo = () => {
     useEffect(() => {
@@ -30,7 +31,7 @@ const ProjectTwo = () => {
             <div className="grid md:grid-cols-12 grid-cols-3">
                 <div className="md:col-span-6 col-span-2">
                     <div>
-                        <img src="../src/assets/favicon.png" alt="LOGO" />
+                        <img src={logo} alt="LOGO" />
                         <p className="font-semibold">BCon</p>
                     </div>
                     <h2 className="w-1/4 text-sm text-gray-400 py-4">We build security and trust in homes</h2>
