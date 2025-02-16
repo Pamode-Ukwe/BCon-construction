@@ -5,7 +5,7 @@ import projectThree from "../src/assets/projects-img-3.png"
 
 const Projects = () => {
   return (
-    <section id="projects" className="bg-zinc-900 px-32 pb-16">
+    <section id="projects" className="bg-zinc-900 pmd:px-32 sm:px16 px-8 pb-16">
         <div className="font-bold text-yellow-400 text-center">OUR PROJECTS</div>
         <div className="font-bold text-4xl pt-4 text-white text-center">Latest Completed</div>
         <div className="font-bold text-4xl pb-4 text-white text-center mb-6">Projects</div>

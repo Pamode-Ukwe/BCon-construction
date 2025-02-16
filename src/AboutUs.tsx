@@ -3,7 +3,7 @@ import aboutTwo from "../src/assets/about-img-2.png"
 
 const AboutUs = () => {
   return (
-    <section id="aboutUs" className="grid lg:grid-cols-2 px-32 md:py-16 md:gap-12">
+    <section id="aboutUs" className="grid lg:grid-cols-2 md:px-32 sm:px16 px-8 md:py-16 md:gap-12">
          <div className="lg:relative order-2 lg:order-1 p-2">
                 <img src={aboutOne} alt="About image1" className="lg:absolute lg:border-10 lg:border-white mx-auto lg:h-[65%] lg:right-0"/>
                 <img src={aboutTwo} alt="About image2" className="lg:mt-[30%] lg:h-[60%] lg:ml-12 hidden lg:grid"/>

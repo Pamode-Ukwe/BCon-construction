@@ -5,7 +5,7 @@ import contactPic from "../src/assets/contact-img.png"
 
 const ContactUs = () => {
   return (
-    <section id="contact-us" className="px-32 py-16">
+    <section id="contact-us" className="md:px-32 sm:px16 px-8 py-16">
         <h1 className="font-bold text-yellow-400 lg:text-left text-center w-fit">CONTACT US</h1>
         <div className="font-bold text-4xl py-4 col-span-5">Write To Us & Build</div>
         <div className="grid lg:grid-cols-2 gap-16 py-4">

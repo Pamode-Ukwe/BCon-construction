@@ -9,7 +9,7 @@ const ProjectThree = () => {
         window.scrollTo(0, 0)
     }, [])
   return (
-    <section className="bg-zinc-900 text-gray-300 px-32 py-24">
+    <section className="bg-zinc-900 text-gray-300 md:px-32 sm:px16 px-8 py-24">
         <Link to='/'><button className="px-6 text-lg font-semibold"><a href="#home">← Home</a></button></Link>
         <div className="grid lg:grid-cols-2">
             <img src={projectPreviewThree} alt="PROJECT3" className="w-full p-6"/>

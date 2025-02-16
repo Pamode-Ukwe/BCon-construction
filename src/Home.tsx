@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <section id="home">
         <div className="bg-zinc-900 text-white">
-            <div className="grid lg:grid-cols-3 px-32 py-10 pb-16">
+            <div className="grid lg:grid-cols-3 md:px-32 sm:px16 px-8 py-10 pb-16">
                 <motion.div initial={{x: '-100vw', opacity: 0}} animate={{x: 0, opacity: 1}} exit={{x: '100vw', opacity: 0}} transition={{type: 'tween', duration: 0.8}}
                     className="lg:py-6 pt:6 col-span-1">
                     <div className="font-bold text-6xl pb-4 text-center lg:text-left">Create The Constructions You Want</div>

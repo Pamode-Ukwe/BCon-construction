@@ -16,7 +16,7 @@ const Services = () => {
     const prevSlide = () => {setMove((prev) => (prev > 0 ? prev - 1 : 0))}
     const nextSlide = () => {setMove((prev) => (prev < data.length - 3 ? prev + 1 : data.length - 3))}
   return (
-    <section id="services" className="px-32 pb-32 bg-gradient-to-b from-white to-zinc-900 md:from-50%">
+    <section id="services" className="md:px-32 sm:px16 px-8 pb-32 bg-gradient-to-b from-white to-zinc-900 md:from-50%">
         <h1 className="font-bold text-yellow-400 lg:text-left text-center w-fit">OUR SERVICES</h1>
         <div className="grid md:grid-cols-12 items-center md:gap-12 gap-6">
             <div className="font-bold text-4xl py-4 col-span-5">High Quality Construction Services</div>

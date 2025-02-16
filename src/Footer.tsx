@@ -4,7 +4,7 @@ import logoIcon from "../src/assets/favicon.png"
 
 const Footer = () => {
   return (
-    <section className="bg-zinc-900 text-white px-32 py-16">
+    <section className="bg-zinc-900 text-white md:px-32 sm:px16 px-8 py-16">
         <div className="grid md:grid-cols-12 grid-cols-3">
             <div className="md:col-span-6 col-span-2">
                 <div>
